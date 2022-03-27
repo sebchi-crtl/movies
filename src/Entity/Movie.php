@@ -79,15 +79,4 @@ class Movie
         return $this;
     }
 
-    public function getC(): ?string
-    {
-        return $this->c;
-    }
-
-    public function setC(string $c): self
-    {
-        $this->c = $c;
-
-        return $this;
-    }
 }
